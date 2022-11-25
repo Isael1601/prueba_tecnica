@@ -44,7 +44,7 @@ const Productos = () => {
             <Form className="m-5" onSubmit={enviarDatos}>
                 <Row xs={1} md={2} className="m-1">
                 <Form.Group className="mb-3" controlId="formGridAddress1">
-                    <Form.Label>Code</Form.Label>
+                    <Form.Label>Codigo</Form.Label>
                     <Form.Control type="text"
                     placeholder="product" 
                     className="form-control"
@@ -58,7 +58,7 @@ const Productos = () => {
                 
 
                 <Form.Group className="mb-3" controlId="formGridAddress2">
-                    <Form.Label>Description</Form.Label>
+                    <Form.Label>Descripción</Form.Label>
                     <Form.Control type="text"
                     placeholder="max. 150 caracther" 
                     className="form-control"
@@ -71,7 +71,7 @@ const Productos = () => {
 
                 <Row xs={1} md={2} className="m-1" >
                     <Form.Group as={Col} controlId="formGridEmail">
-                    <Form.Label>Price</Form.Label>
+                    <Form.Label>Precio</Form.Label>
                     <Form.Control type="number" 
                     placeholder="$" 
                     className="form-control"
