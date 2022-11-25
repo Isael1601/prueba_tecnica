@@ -1,0 +1,30 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jumbotron {
+    background-image: url("../assets/store.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgb(0, 0, 0, 0.5) 0px 5px 5px, rgb(0, 0, 0, 0.5) 0px 5px 5px ;
+    width: 96%;
+    height: 450px;
+    margin: 4% 2%;
+    margin-top: 0;
+    border-radius: 10px;
+    padding-top: 20%;
+    padding-left: 15%;
+}
+
+.text {
+    color: #ff0000dc;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: solid 3px #000000;
+    width: 300px;
+    height: 100px;
+    padding-top: 3%;
+}
