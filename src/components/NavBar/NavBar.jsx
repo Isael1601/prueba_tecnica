@@ -7,7 +7,7 @@ function NavScrollExample() {
   return (
     <Navbar bg="light" expand="lg">
       <Container className='nav' fluid>
-        <Navbar.Brand href="#"><img className='logo' src={ Store2 } alt="Tienda" /></Navbar.Brand>
+        <Navbar.Brand as={Link} to='/Inicio'><img className='logo' src={ Store2 } alt="Tienda" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -21,6 +21,7 @@ function NavScrollExample() {
             <Nav.Link className="a" as={Link} to='/Productos'>Productos</Nav.Link>
             <Nav.Link className="a" as={Link} to='/Carrito' ><i class="fa-solid fa-cart-shopping"></i></Nav.Link>
           </Nav>
+          <Nav.Link className="login" as={Link} to='/Login'><i class="fa-solid fa-user"></i>  Iniciar Sesion</Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>

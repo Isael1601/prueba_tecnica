@@ -5,6 +5,7 @@ import Clientes from "./components/Clientes/Clientes";
 import Tienda from "./components/Tienda/Tienda";
 import Productos from "./components/Productos/Productos";
 import Carrito from "./components/Carrito/Carrito";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='Tienda' element={<Tienda />} />
           <Route path='Productos' element={<Productos />} />
           <Route path='Carrito' element={<Carrito />} />
+          <Route path='Login' element={<Login />} />
         </Routes>
       
       </BrowserRouter>
